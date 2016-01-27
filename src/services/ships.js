@@ -11,6 +11,9 @@ function Locations($http) {
         lastFetched = Date.now();
         return $http.get('/api/locations');
     }
+    this.getShipData = (id) => {
+        return $http.get(`/api/ships/${id}`);
+    }
 }
 
 export default angular.module('services.locations', [])

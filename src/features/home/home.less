@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.main-title {
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+}
+
+.main-window {
+    display: block;
+    height: 100%;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#map {
+    border-radius: 5px 0 0 5px;
+    border: 1px solid rgba(10, 10, 10, 0.1);
+    display: inline-block;
+    height: 500px;
+    position: relative;
+    vertical-align: top;
+    width: 50%;
+}
+
+.ship-edit {
+    border-radius: 0 5px 5px 0;
+    border: 1px solid rgba(10, 10, 10, 0.2);
+    display: inline-block;
+    height: 500px;
+    padding: 0 5px;
+    position: relative;
+    width: 50%;
+}
+
+.hint-tip {
+    color: rgba(10, 10, 10, 0.8);
+    font-size: 15px;
+    text-align: center;
+}
+
+.windward-button {
+    background: #e0e1e2;
+    border: none;
+    box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,0.15) inset;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0.25em 0 0;
+    min-height: 1em;
+    outline: 0;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    vertical-align: baseline;
+
+    &:hover {
+        background-color: #cacbcd;
+        background-image: none;
+        box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    &.primary {
+        background-color: #2185d0;
+        color: #fff;
+        text-shadow: none;
+        background-image: none;
+        &:hover {
+            background-color: #1678c2;
+            color: #fff;
+            text-shadow: none;
+        }
+    }
+}
+
+.action-buttons {
+    bottom: 1em;
+    position: absolute;
+    right: 1em;
+
+    .cancel-editing {
+        position: relative;
+    }
+    .save-editing {
+        position: relative;
+    }
+}
+
+

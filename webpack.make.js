@@ -41,55 +41,21 @@ module.exports = function makeWebpackConfig(options) {
     config.module = {
         preLoaders: [],
         loaders: [{
-            // JS LOADER
-            // Reference: https://github.com/babel/babel-loader
-            // Transpile .js files using babel-loader
-            // Compiles ES6 and ES7 into ES5 code
             test: /\.js$/,
-            loaders: ['ng-annotate', 'babel'],
+            loaders: ['ng-annotate-loader', 'babel-loader'],
             exclude: /node_modules/
         }, {
-            // ASSET LOADER
-            // Reference: https://github.com/webpack/file-loader
-            // Copy png, jpg, jpeg, gif, svg, woff, woff2, ttf, eot files to output
-            // Rename the file using the asset hash
-            // Pass along the updated reference to your code
-            // You can add here any file extension you want to get copied to your output
-            test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
-            loader: 'file'
+            test: /\.less$/,
+            loader: ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap!postcss-loader!less-loader?sourceMap')
         }, {
-            // HTML LOADER
-            // Reference: https://github.com/webpack/raw-loader
-            // Allow loading html through js
+            test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
+            loader: 'file-loader'
+        }, {
             test: /\.html$/,
-            loader: 'raw'
+            loader: 'raw-loader'
         }]
     };
 
-    // CSS LOADER
-    // Reference: https://github.com/webpack/css-loader
-    // Allow loading css through js
-    //
-    // Reference: https://github.com/postcss/postcss-loader
-    // Postprocess your css with PostCSS plugins
-    var cssLoader = {
-        test: /\.css$/,
-        // Reference: https://github.com/webpack/extract-text-webpack-plugin
-        // Extract css files in production builds
-        //
-        // Reference: https://github.com/webpack/style-loader
-        // Use style-loader in development for hot-loading
-        loader: ExtractTextPlugin.extract('style', 'css-loader?sourceMap!postcss-loader')
-    };
-
-    // Add cssLoader to the loader list
-    config.module.loaders.push(cssLoader);
-
-    /**
-     * PostCSS
-     * Reference: https://github.com/postcss/autoprefixer-core
-     * Add vendor prefixes to your css
-     */
     config.postcss = [
         autoprefixer({
             browsers: ['last 2 version']
