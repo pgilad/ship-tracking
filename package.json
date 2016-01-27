@@ -1,0 +1,34 @@
+{
+  "name": "windward",
+  "version": "1.0.0",
+  "description": "windward",
+  "scripts": {
+    "build": "webpack --config webpack.build.js --bail -p",
+    "dev": "node node_modules/.bin/webpack-dev-server --history-api-fallback --hot --inline --progress"
+  },
+  "repository": "",
+  "author": "Gilad Peleg <giladp007@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-google-maps": "^2.3.0",
+    "angular-simple-logger": "^0.1.7",
+    "angular-ui-router": "^0.2.15",
+    "autoprefixer-core": "^5.2.0",
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "babel-runtime": "^5.5.8",
+    "css-loader": "^0.14.5",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.5.2",
+    "lodash": "^4.0.1",
+    "ng-annotate-loader": "^0.1.0",
+    "node-libs-browser": "^0.5.2",
+    "postcss-loader": "^0.4.4",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
