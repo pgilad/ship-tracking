@@ -1,8 +1,7 @@
-<div id="home-header" class="jumbotron">
-  <greeting name="home.name"></greeting>
+<h1>Windward Ship Tracking</h1>
+<div class="main-window">
+  <div id="map"></div>
+  <div class="ship-edit" ng-if="home.isEditingShip">
+    Editing ship {{ home.editingShip._id }}
+  </div>
 </div>
-
-<div id="map" />
-
-<button class="btn btn-primary" ng-click="home.changeName()">Change</button>
-<button class="btn btn-danger" ng-click="home.randomName()">Random</button>

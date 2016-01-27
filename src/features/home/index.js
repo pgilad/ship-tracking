@@ -1,14 +1,12 @@
-import './home.css';
-
 import angular from 'angular';
 import uirouter from 'angular-ui-router';
 
+import './home.css';
 import routing from './home.routes';
 import HomeController from './home.controller';
-import randomNames from '../../services/randomNames.service';
-import greeting    from '../../directives/greeting.directive';
+import Ships from '../../services/ships';
 
-export default angular.module('windward.home', [uirouter, randomNames, greeting])
+export default angular.module('windward.home', [uirouter, Ships])
   .config(routing)
   .controller('HomeController', HomeController)
   .name;

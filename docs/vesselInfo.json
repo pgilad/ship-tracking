@@ -1,0 +1,1678 @@
+[
+  {
+    "_id": "5498517ab68ca1ede0612bba",
+    "oldShipId": 14322,
+    "mmsi": 247179700,
+    "imo": null,
+    "name": "GRECALE",
+    "callsign": "IIOU",
+    "owner": null,
+    "reported_port": {
+      "ts": "2016-08-13T19:30:00.000Z",
+      "name": "CAPRI"
+    },
+    "vessel_class": "Unknown",
+    "size": 22,
+    "drought": 1.399999976158142,
+    "flag": "Italy",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 4876,
+    "draught": 1.399999976158142
+  },
+  {
+    "_id": "5498517ab68ca1ede0612c1f",
+    "oldShipId": 14428,
+    "mmsi": 271043118,
+    "imo": null,
+    "name": "PARADISE WINDS",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 1769,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0612c20",
+    "oldShipId": 14430,
+    "mmsi": 271010698,
+    "imo": null,
+    "name": "OKYANUS",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 10575,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0612d0a",
+    "oldShipId": 14662,
+    "mmsi": 271042448,
+    "imo": null,
+    "name": "ASIK ISTANBUL",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 22242,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0612dfc",
+    "oldShipId": 14907,
+    "mmsi": 249000608,
+    "imo": null,
+    "name": "P.Y. MAWIMBI",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Malta",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 17130,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0612e59",
+    "oldShipId": 14997,
+    "mmsi": 271020132,
+    "imo": null,
+    "name": null,
+    "callsign": "YM3602",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Pleasure",
+    "size": 15,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 21289,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0612e64",
+    "oldShipId": 15012,
+    "mmsi": 271010614,
+    "imo": null,
+    "name": null,
+    "callsign": "TC7733",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Passenger",
+    "size": 23,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 19489,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0612f03",
+    "oldShipId": 25175,
+    "mmsi": 271002588,
+    "imo": null,
+    "name": "ATLET",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 20166,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0612ff1",
+    "oldShipId": 25415,
+    "mmsi": 470330000,
+    "imo": null,
+    "name": "BLISS",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 2.700000047683716,
+    "flag": "UnitedArabEmirates",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 16047,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0613028",
+    "oldShipId": 25475,
+    "mmsi": 271002292,
+    "imo": null,
+    "name": "YUSUF NACI KARAKURT",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": 922,
+    "max_draught": "3.69 m",
+    "vessel_type": "cargo",
+    "service_speed": "7",
+    "number_of_blips": 32976,
+    "draught": 0,
+    "buildYear": 1968
+  },
+  {
+    "_id": "5498517ab68ca1ede0613052",
+    "oldShipId": 25515,
+    "mmsi": 271020056,
+    "imo": null,
+    "name": null,
+    "callsign": "YM8578",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Pleasure",
+    "size": 27,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 12173,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede0613269",
+    "oldShipId": 26054,
+    "mmsi": 408002840,
+    "imo": null,
+    "name": "SEA SPRAY",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Bahrain",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 819,
+    "draught": 0
+  },
+  {
+    "_id": "5498517ab68ca1ede06132e5",
+    "oldShipId": 26178,
+    "mmsi": 470690000,
+    "imo": "4816",
+    "name": "GAC SHAMAL",
+    "callsign": "A6E2887",
+    "owner": null,
+    "reported_port": {
+      "ts": "2013-02-27T13:00:00.000Z",
+      "name": "Dubai"
+    },
+    "vessel_class": "Other",
+    "size": 22,
+    "drought": 1.5,
+    "flag": "UnitedArabEmirates",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 1299
+  },
+  {
+    "_id": "5498517ab68ca1ede0613369",
+    "oldShipId": 26307,
+    "mmsi": 271043270,
+    "imo": null,
+    "name": "IMBAT IZMIR",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 16113,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede061340e",
+    "oldShipId": 26477,
+    "mmsi": 236111201,
+    "imo": null,
+    "name": null,
+    "callsign": "ZDEY8",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Pleasure",
+    "size": 38,
+    "drought": 0,
+    "flag": "Gibraltar",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 3074,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613449",
+    "oldShipId": 26536,
+    "mmsi": 256000313,
+    "imo": null,
+    "name": "UTOPIA",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Malta",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 13463,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613454",
+    "oldShipId": 26545,
+    "mmsi": 235066304,
+    "imo": null,
+    "name": "MADHURI",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "UnitedKingdom",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 6208,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613494",
+    "oldShipId": 26608,
+    "mmsi": 645312000,
+    "imo": "5382",
+    "name": "DN63",
+    "callsign": "3BRG",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": "JABALALIPORT"
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Mauritius",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 206,
+    "draught": 2.799999952316284
+  },
+  {
+    "_id": "5498517bb68ca1ede06134d6",
+    "oldShipId": 26676,
+    "mmsi": 271072105,
+    "imo": null,
+    "name": "ERGUN BASARAN",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 4910,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede06137de",
+    "oldShipId": 27511,
+    "mmsi": 237930000,
+    "imo": null,
+    "name": "AG-FANOURIOS",
+    "callsign": "SY3110",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Fishing",
+    "size": 29,
+    "drought": 2.299999952316284,
+    "flag": "Greece",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 5519,
+    "draught": 2.299999952316284
+  },
+  {
+    "_id": "5498517bb68ca1ede0613856",
+    "oldShipId": 27632,
+    "mmsi": 271040062,
+    "imo": null,
+    "name": "SARIKAYALAR",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 340,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede061393b",
+    "oldShipId": 27868,
+    "mmsi": 413052540,
+    "imo": null,
+    "name": "HANGFENG3HAO",
+    "callsign": "BSOC",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Other",
+    "size": 42,
+    "drought": 4.300000190734863,
+    "flag": "China",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 9488,
+    "draught": 4.300000190734863
+  },
+  {
+    "_id": "5498517bb68ca1ede06139d2",
+    "oldShipId": 28019,
+    "mmsi": 247131580,
+    "imo": null,
+    "name": "STEFANO PRIMO",
+    "callsign": "IIHL2",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Fishing",
+    "size": 0,
+    "drought": 0,
+    "flag": "Italy",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 10914,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613a10",
+    "oldShipId": 207256,
+    "mmsi": 422549000,
+    "imo": null,
+    "name": null,
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 3.5,
+    "flag": "Iran",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "0.40 m",
+    "vessel_type": "landing craft",
+    "number_of_blips": 8133,
+    "buildYear": 2006,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613b96",
+    "oldShipId": 207667,
+    "mmsi": 271072134,
+    "imo": null,
+    "name": "ZUTUK REIS-2",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 2935,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613ce0",
+    "oldShipId": 208004,
+    "mmsi": 470000106,
+    "imo": null,
+    "name": "PILOT 4",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "UnitedArabEmirates",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 2917,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613d1f",
+    "oldShipId": 208067,
+    "mmsi": 271010485,
+    "imo": null,
+    "name": "DOGANYURT EKSPRES",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 50809,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613d81",
+    "oldShipId": 208165,
+    "mmsi": 271040154,
+    "imo": null,
+    "name": "CEBEL",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 21242,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613e92",
+    "oldShipId": 424654,
+    "mmsi": 271072989,
+    "imo": null,
+    "name": "SERKAN KAPTAN",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 4626,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613edb",
+    "oldShipId": 424734,
+    "mmsi": 271072406,
+    "imo": null,
+    "name": "MENEKSE K",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 3184,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613ede",
+    "oldShipId": 424738,
+    "mmsi": 271010636,
+    "imo": null,
+    "name": null,
+    "callsign": "TCA2924",
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "ServiceVessel",
+    "size": 12,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 931,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613f7b",
+    "oldShipId": 424896,
+    "mmsi": 239076600,
+    "imo": null,
+    "name": "ANNA II",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Greece",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 27997,
+    "draught": 0
+  },
+  {
+    "_id": "5498517bb68ca1ede0613f8c",
+    "oldShipId": 424913,
+    "mmsi": 271010628,
+    "imo": null,
+    "name": "DUZGIT EXPRESS",
+    "callsign": null,
+    "owner": null,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "vessel_class": "Unknown",
+    "size": 0,
+    "drought": 0,
+    "flag": "Turkey",
+    "is_alive": true,
+    "deadweight": -1,
+    "max_draught": "-1 m",
+    "vessel_type": "unknown",
+    "number_of_blips": 2511,
+    "draught": 0
+  },
+  {
+    "_id": "54bf8260e4b07a939cf5787c",
+    "oldShipId": 6528377633,
+    "imo": null,
+    "mmsi": 525005330,
+    "flag": "Indonesia",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "SERVEWELL PATRIOT 2",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf8265e4b0ff0563cd254c",
+    "oldShipId": 7276536738,
+    "imo": null,
+    "mmsi": 316028476,
+    "flag": "Canada",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "DOUBLE MISCHIEF",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf8265e4b0ff0563cd2554",
+    "oldShipId": 67685229,
+    "imo": "127",
+    "mmsi": 366818670,
+    "flag": "UnitedStates",
+    "draught": 3,
+    "vessel_class": "Unknown",
+    "name": "MS MADISON",
+    "callsign": "WDA5301",
+    "size": 39,
+    "reported_port": {
+      "ts": "2015-10-26T23:45:00.000Z",
+      "name": "FOURCHON"
+    }
+  },
+  {
+    "_id": "54bf962ce4b06c819f24d129",
+    "oldShipId": 53787692,
+    "imo": null,
+    "mmsi": 431402033,
+    "flag": "Japan",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "TAISEIMARU",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9630e4b002c3423fc11a",
+    "oldShipId": 1841875395,
+    "mmsi": 24475006
+  },
+  {
+    "_id": "54bf9630e4b06c819f24d301",
+    "oldShipId": 7718375417,
+    "imo": null,
+    "mmsi": 244260103,
+    "flag": "Netherlands",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "NATHANJO",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf97f7e4b09768975e62b2",
+    "oldShipId": 3251375872,
+    "imo": null,
+    "mmsi": 503041600,
+    "flag": "Australia",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "AK1",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf98a4e4b051912a55d8de",
+    "oldShipId": 8011854838,
+    "imo": null,
+    "mmsi": 421399999,
+    "flag": "Unknown",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "60634",
+    "callsign": "309",
+    "size": 122,
+    "reported_port": {
+      "ts": null,
+      "name": "309 B#"
+    }
+  },
+  {
+    "_id": "54bf9926e4b0780294b8410d",
+    "oldShipId": 8014106877,
+    "imo": null,
+    "mmsi": 413995409,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "WU HU SHUN FENG 85",
+    "callsign": null,
+    "size": 36,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf99cee4b021afb1a981fc",
+    "oldShipId": 8001390713,
+    "imo": null,
+    "mmsi": 413709279,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "HAI RUN 99279",
+    "callsign": null,
+    "size": 65,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9a51e4b0f0fd018205c9",
+    "oldShipId": 240878731,
+    "imo": null,
+    "mmsi": 413991325,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "JIANG HAI HUO 298",
+    "callsign": null,
+    "size": 42,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9a54e4b021afb1a984ff",
+    "oldShipId": 1758125117,
+    "mmsi": 31102653
+  },
+  {
+    "_id": "54bf9a55e4b0f0fd01820741",
+    "oldShipId": 7772821914,
+    "imo": null,
+    "mmsi": 376724000,
+    "flag": "SaintVincentAndTheGrenadines",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "RIGEL 2",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9bade4b0b5b9bf14d5b7",
+    "oldShipId": 4364628796,
+    "imo": null,
+    "mmsi": 338163877,
+    "flag": "UnitedStates",
+    "draught": 0,
+    "vessel_class": "MilitaryOrLaw",
+    "name": null,
+    "callsign": null,
+    "size": 10,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cb3e4b0e5139daf6b4f",
+    "oldShipId": 86865777,
+    "imo": null,
+    "mmsi": 412436398,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "ZHEXIANGYU70004",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cb5e4b0e5139daf6bf0",
+    "oldShipId": 7670115112,
+    "imo": null,
+    "mmsi": 412422811,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": null,
+    "callsign": null,
+    "size": 43,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cb6e4b0d98275730703",
+    "oldShipId": 7654668467,
+    "imo": null,
+    "mmsi": 412427159,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": "ZHE DAI YU 12889",
+    "callsign": null,
+    "size": 45,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cb8e4b02f08cc33a582",
+    "oldShipId": 8052115385,
+    "imo": null,
+    "mmsi": 413826548,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "HUIFENG7289",
+    "callsign": null,
+    "size": 114,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cb9e4b0a75d364e8682",
+    "oldShipId": 8052115216,
+    "imo": null,
+    "mmsi": 258995160,
+    "flag": "Norway",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": null,
+    "callsign": "LI9612",
+    "size": 8,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cb9e4b0d9827573084a",
+    "oldShipId": 815972227,
+    "imo": null,
+    "mmsi": 413823659,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "XINHANGJI586",
+    "callsign": null,
+    "size": 35,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cbae4b02f08cc33a694",
+    "oldShipId": 298588478,
+    "imo": null,
+    "mmsi": 412415620,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": null,
+    "callsign": null,
+    "size": 52,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cbae4b02f08cc33a69d",
+    "oldShipId": 6050518278,
+    "imo": null,
+    "mmsi": 412428506,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": "ZHESHENGYUYUN81358",
+    "callsign": "O",
+    "size": 30,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cbde4b0a75d364e883a",
+    "oldShipId": 1504488472,
+    "imo": null,
+    "mmsi": 338109968,
+    "flag": "UnitedStates",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "SEASONS",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cbfe4b0e5139daf70cb",
+    "oldShipId": 5269460026,
+    "imo": null,
+    "mmsi": 431005235,
+    "flag": "Japan",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "KINUURA",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc1e4b0a75d364e8a50",
+    "oldShipId": 36627767,
+    "imo": null,
+    "mmsi": 431400003,
+    "flag": "Japan",
+    "draught": 0,
+    "vessel_class": "Tanker",
+    "name": null,
+    "callsign": "JM6131",
+    "size": 56,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc1e4b0e5139daf71b8",
+    "oldShipId": 970079131,
+    "imo": null,
+    "mmsi": 413771701,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "WAN HUA YUN 1968",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc2e4b0d98275730d20",
+    "oldShipId": 229291186,
+    "imo": null,
+    "mmsi": 412422449,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": null,
+    "callsign": null,
+    "size": 30,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc3e4b02f08cc33aaf7",
+    "oldShipId": 8115536885,
+    "imo": null,
+    "mmsi": 412423234,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": null,
+    "callsign": null,
+    "size": 30,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc5e4b0a75d364e8c5e",
+    "oldShipId": 7418164524,
+    "imo": null,
+    "mmsi": 416306399,
+    "flag": "Taiwan",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": null,
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc6e4b02f08cc33ac79",
+    "oldShipId": 7670734298,
+    "imo": null,
+    "mmsi": 413824992,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "JIAJIE018",
+    "callsign": null,
+    "size": 58,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc6e4b0e5139daf747a",
+    "oldShipId": 3611417567,
+    "imo": null,
+    "mmsi": 412432422,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": "ZHECANGYU02528",
+    "callsign": null,
+    "size": 42,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc7e4b0d98275730f81",
+    "oldShipId": 4698676020,
+    "imo": null,
+    "mmsi": 413364340,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "SHENG SONG GONG 79",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9cc8e4b0e5139daf7596",
+    "oldShipId": 6940533099,
+    "imo": null,
+    "mmsi": 227089290,
+    "flag": "France",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "PATANGE II",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9ccbe4b0e5139daf76f9",
+    "oldShipId": 113979658,
+    "imo": null,
+    "mmsi": 413766369,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "HUSUHUANYUNHUO 3235",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9dbbe4b0d98275731212",
+    "oldShipId": 8055154484,
+    "imo": null,
+    "mmsi": 412410667,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": "ZHELUYU88788",
+    "callsign": null,
+    "size": 57,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9dcbe4b0a75d364e958b",
+    "oldShipId": 61848984,
+    "imo": null,
+    "mmsi": 257469320,
+    "flag": "Norway",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": null,
+    "callsign": "LM9480",
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bf9dd1e4b0e5139daf8078",
+    "oldShipId": 8130809354,
+    "mmsi": 412430839,
+    "imo": null,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": "ZHEDONGYU81089",
+    "callsign": null,
+    "size": 15,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfa12fe4b0a53403ad4dfe",
+    "oldShipId": 8001391171,
+    "imo": null,
+    "mmsi": 413827017,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "FUTONG688",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfa1d4e4b00d1398e0d257",
+    "oldShipId": 8011854839,
+    "imo": null,
+    "mmsi": 412437329,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "ZHEXIANGYU30142",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfa5d5e4b0f4fdb0577b27",
+    "oldShipId": 8011854837,
+    "imo": null,
+    "mmsi": 412428245,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Fishing",
+    "name": "ZHESHENGYU10107",
+    "callsign": null,
+    "size": 40,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfacece4b07f775a754844",
+    "oldShipId": 2913358863,
+    "mmsi": 211172180
+  },
+  {
+    "_id": "54bfacf4e4b06108bdaa1e93",
+    "oldShipId": 4241950819,
+    "imo": null,
+    "mmsi": 250105970,
+    "flag": "Ireland",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "PURE MAGIC",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfafd2e4b0ac321105d81a",
+    "oldShipId": 7933331441,
+    "mmsi": 373676000,
+    "buildYear": 2012,
+    "vessel_type": "bulk carrier",
+    "deadweight": 82250,
+    "max_draught": "14.43 m",
+    "owner": "NISSEN KAIUN"
+  },
+  {
+    "_id": "54bfb118e4b073ee6951b9f2",
+    "oldShipId": 4942979106,
+    "imo": null,
+    "mmsi": 503008630,
+    "flag": "Australia",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "SUZUKI",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfb3bee4b023983958afdb",
+    "oldShipId": 8001391321,
+    "imo": null,
+    "mmsi": 440151310,
+    "flag": "SouthKorea",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "MYUNG KWANG  1HO",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfb476e4b023983958b263",
+    "oldShipId": 1527543948,
+    "mmsi": 256462000,
+    "buildYear": 2011,
+    "vessel_type": "tanker",
+    "deadweight": 4595,
+    "max_draught": "6.01 m",
+    "owner": "AEGEAN VII SHIPPING"
+  },
+  {
+    "_id": "54bfb971e4b09da34bd0fa90",
+    "oldShipId": 8096694417,
+    "imo": null,
+    "mmsi": 413794104,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": null,
+    "callsign": null,
+    "size": 45,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfb973e4b043ec0928df32",
+    "oldShipId": 8130808956,
+    "imo": null,
+    "mmsi": 413818363,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": "WAN MA HUO 3086",
+    "callsign": null,
+    "size": 38,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfbb4de4b096321cda848f",
+    "oldShipId": 1110562031,
+    "imo": null,
+    "mmsi": 413788012,
+    "flag": "China",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "YOUYUAN168",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfc728e4b0616a5e4943aa",
+    "oldShipId": 1863789997,
+    "imo": null,
+    "mmsi": 234289000,
+    "flag": "UnitedKingdom",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "CLYDE CHALLENGER",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54bfca21e4b09a6e32c27855",
+    "oldShipId": 3836999363,
+    "mmsi": 211627300
+  },
+  {
+    "_id": "54c0abd9e4b0d4fdcb165f5e",
+    "oldShipId": 5661209973,
+    "mmsi": 636016427,
+    "buildYear": 2001,
+    "vessel_type": "bulk carrier",
+    "deadweight": 28494,
+    "max_draught": "9.77 m"
+  },
+  {
+    "_id": "54c44752e4b0ea80b613a271",
+    "oldShipId": 3897405472,
+    "imo": "8521730",
+    "mmsi": 245928000,
+    "flag": "Netherlands",
+    "draught": 5,
+    "vessel_class": "Fishing",
+    "name": "SL27",
+    "callsign": "BBNV",
+    "size": 36,
+    "reported_port": {
+      "ts": null,
+      "name": "FISHING GROUNDS"
+    },
+    "buildYear": 1987,
+    "vessel_type": "trawler",
+    "max_draught": "3.08 m"
+  },
+  {
+    "_id": "54d39ba7e4b096223a1b0ef5",
+    "oldShipId": 8645976469,
+    "imo": null,
+    "mmsi": 525006227,
+    "flag": "Indonesia",
+    "draught": 4,
+    "vessel_class": "Other",
+    "name": "SV.STELLA 28",
+    "callsign": "JZKF",
+    "size": 61,
+    "reported_port": {
+      "ts": "2016-09-27T05:20:00.000Z",
+      "name": "SURABAYA"
+    }
+  },
+  {
+    "_id": "54e252f6e4b0b96b61c7c409",
+    "oldShipId": 8870453430,
+    "imo": null,
+    "mmsi": 367198000,
+    "flag": "UnitedStates",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "US GOVT VESSEL",
+    "callsign": "NSUL---",
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54e38122e4b049a5cbe13493",
+    "oldShipId": 8908399733,
+    "imo": null,
+    "mmsi": 319052100,
+    "flag": "CaymanIslands",
+    "draught": 0,
+    "vessel_class": "Unknown",
+    "name": "AZUL",
+    "callsign": null,
+    "size": 0,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    }
+  },
+  {
+    "_id": "54ee1c63e4b04bc223c9e02e",
+    "oldShipId": 4890475723,
+    "mmsi": 244110911
+  },
+  {
+    "_id": "54fe3b81e4b0acd0ddea4421",
+    "oldShipId": 1935284176,
+    "mmsi": 235081219
+  },
+  {
+    "_id": "5513c6a5e4b0def4931b57c4",
+    "oldShipId": 12186210,
+    "imo": null,
+    "mmsi": 576690000,
+    "flag": "Vanuatu",
+    "draught": 0,
+    "vessel_class": "Cargo",
+    "name": null,
+    "callsign": "YJSB3",
+    "size": 70,
+    "reported_port": {
+      "ts": null,
+      "name": null
+    },
+    "buildYear": 2001,
+    "vessel_type": "fishing vessel"
+  },
+  {
+    "_id": "551d0c31e4b06f88fc2d9bb4",
+    "oldShipId": 3472873726,
+    "mmsi": 22833812
+  },
+  {
+    "_id": "554c9e0ce4b01e9eb1e54ff3",
+    "oldShipId": 6843927292,
+    "mmsi": 53738521
+  },
+  {
+    "_id": "55550cfce4b0a64d95cde75b",
+    "oldShipId": 970079549,
+    "mmsi": 26552040
+  },
+  {
+    "_id": "555f25e0e4b022d8fa5f40e7",
+    "oldShipId": 1848295227,
+    "mmsi": 63609220
+  },
+  {
+    "_id": "55849081e4b0ae61f2fc66ad",
+    "oldShipId": 11704980515,
+    "mmsi": 24481365
+  },
+  {
+    "_id": "55adae4fe4b00d205e9c45ea",
+    "oldShipId": 12468548750,
+    "mmsi": 44000571
+  },
+  {
+    "_id": "55b4d89ce4b0b6a7f4e09a52",
+    "oldShipId": 12626271826,
+    "imo": "267130721",
+    "mmsi": 267210068,
+    "flag": "Slovakia",
+    "draught": 0.6000000238418579,
+    "vessel_class": "Passenger",
+    "name": "K.P.S. PLUTO",
+    "callsign": "OMGU",
+    "size": 19,
+    "reported_port": {
+      "ts": "2015-11-11T09:11:00.000Z",
+      "name": "HELYI SZOLGALAT"
+    }
+  },
+  {
+    "_id": "55fe4193e4b006a2b5de497b",
+    "oldShipId": 14041320810,
+    "mmsi": 41220666
+  }
+]

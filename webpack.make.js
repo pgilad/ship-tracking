@@ -7,25 +7,10 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = function makeWebpackConfig(options) {
-    /**
-     * Environment type
-     * BUILD is for generating minified builds
-     */
     var BUILD = !!options.BUILD;
 
-    /**
-     * Config
-     * Reference: http://webpack.github.io/docs/configuration.html
-     * This is the object where all configuration gets set
-     */
     var config = {};
 
-    /**
-     * Entry
-     * Reference: http://webpack.github.io/docs/configuration.html#entry
-     * Should be an empty object if it's generating a test build
-     * Karma will set this when it's a test build
-     */
     config.entry = {
         app: './src/app.js'
     }
@@ -47,25 +32,12 @@ module.exports = function makeWebpackConfig(options) {
         chunkFilename: BUILD ? '[name].[hash].js' : '[name].bundle.js'
     }
 
-    /**
-     * Devtool
-     * Reference: http://webpack.github.io/docs/configuration.html#devtool
-     * Type of sourcemap to use per build type
-     */
     if (BUILD) {
         config.devtool = 'source-map';
     } else {
         config.devtool = 'eval';
     }
 
-    /**
-     * Loaders
-     * Reference: http://webpack.github.io/docs/configuration.html#module-loaders
-     * List: http://webpack.github.io/docs/list-of-loaders.html
-     * This handles most of the magic responsible for converting modules
-     */
-
-    // Initialize module
     config.module = {
         preLoaders: [],
         loaders: [{
@@ -164,11 +136,6 @@ module.exports = function makeWebpackConfig(options) {
         )
     }
 
-    /**
-     * Dev server configuration
-     * Reference: http://webpack.github.io/docs/configuration.html#devserver
-     * Reference: http://webpack.github.io/docs/webpack-dev-server.html
-     */
     config.devServer = {
         contentBase: './public',
         stats: {
@@ -176,7 +143,10 @@ module.exports = function makeWebpackConfig(options) {
             cached: false,
             colors: true,
             chunk: false
-        }
+        },
+        proxy: {
+            "/api/*": "http://localhost:3000/"
+        },
     };
 
     return config;

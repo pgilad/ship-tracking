@@ -1,5 +1,32 @@
-#home-header {
-  text-align: center;
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
 }
 
-#map { height: 400px; }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#home-header {
+    text-align: center;
+}
+
+.main-window {
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+#map {
+  float: left;
+  height: 500px;
+  width: 50%;
+}
+
+.ship-edit {
+  float: right;
+  font-size: 14px;
+  width: 50%;
+}
