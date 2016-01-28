@@ -4,7 +4,7 @@
   "description": "windward",
   "scripts": {
     "build": "webpack --config webpack.build.js --bail -p",
-    "dev": "webpack-dev-server --history-api-fallback --hot --inline --progress"
+    "dev": "webpack-dev-server --history-api-fallback --progress"
   },
   "repository": "",
   "author": "Gilad Peleg <giladp007@gmail.com>",
@@ -27,6 +27,7 @@
     "extract-text-webpack-plugin": "^0.8.2",
     "file-loader": "^0.8.4",
     "html-webpack-plugin": "^1.5.2",
+    "json-loader": "^0.5.4",
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
     "lodash": "^4.0.1",
@@ -36,6 +37,7 @@
     "node-libs-browser": "^0.5.2",
     "postcss-loader": "^0.4.4",
     "raw-loader": "^0.5.1",
+    "serve-favicon": "^2.3.0",
     "style-loader": "^0.12.3",
     "webpack": "^1.9.11",
     "webpack-dev-server": "^1.9.0"

@@ -10,10 +10,15 @@ function Locations($http) {
         }
         lastFetched = Date.now();
         return $http.get('/api/locations');
-    }
+    };
+
     this.getShipData = (id) => {
         return $http.get(`/api/ships/${id}`);
-    }
+    };
+
+    this.saveShip = (ship) => {
+        return $http.put(`/api/ships/${ship._id}`, ship);
+    };
 }
 
 export default angular.module('services.locations', [])

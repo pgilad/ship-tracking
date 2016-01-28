@@ -1,0 +1,48 @@
+<h1 class="main-title">Windward Ship Tracking</h1>
+<div class="main-window">
+    <div id="map"></div>
+    <div class="ship-edit" ng-if="home.isEditingShip">
+        <div class="title">Editing ship {{ home.editingShip._id }}</div>
+        <div class="hint-tip" ng-if="home.loadingShipDetails">Loading ship's data...</div>
+        <hr class="horizontal-ruler" />
+        <form class="edit-ship-form" ng-if="!home.loadingShipDetails">
+            <div class="field">
+                <label> Name:</label>
+                <input type="text" class="input-text" ng-model="home.shipDetails.name" />
+            </div>
+            <div class="field">
+                <label>Callsign:</label>
+                <input type="text" class="input-text" ng-model="home.shipDetails.callsign" />
+            </div>
+            <div class="field">
+                <label>Flag: </label>
+                <input type="text" class="input-text" ng-model="home.shipDetails.flag" />
+                <div class="country-flag flag {{ home.getAlphaFlag(home.shipDetails.flag) }}"></div>
+            </div>
+            <div class="field">
+                <label>Draught: </label>
+                <input type="number" class="input-text" ng-model="home.shipDetails.draught" />
+            </div>
+            <div class="field">
+                <label>Size:</label>
+                <input type="number" class="input-text" ng-model="home.shipDetails.size" />
+            </div>
+            <div class="field">
+                <label>MMSI:</label>
+                <input type="number" class="input-text" ng-model="home.shipDetails.mmsi" />
+            </div>
+            <div class="field">
+                <label>Vessel Class:</label>
+                <input type="text" class="input-text" ng-model="home.shipDetails.vessel_class" />
+            </div>
+        </form>
+
+        <div class="action-buttons">
+            <button class="windward-button cancel-editing" ng-click="home.doneEditing()">Cancel</button>
+            <button class="windward-button primary save-editing" ng-click="home.saveShip()">Save Changes</button>
+        </div>
+    </div>
+    <div class="ship-edit" ng-if="!home.isEditingShip">
+        <div class="hint-tip">Click a ship to edit it</div>
+    </div>
+</div>

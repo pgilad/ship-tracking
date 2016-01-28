@@ -36,9 +36,15 @@ html {
     border: 1px solid rgba(10, 10, 10, 0.2);
     display: inline-block;
     height: 500px;
+    overflow: hidden;
     padding: 0 5px;
     position: relative;
     width: 50%;
+    .title {
+        font-size: 17px;
+        margin-bottom: 5px;
+        padding: 10px 0;
+    }
 }
 
 .hint-tip {
@@ -102,4 +108,54 @@ html {
     }
 }
 
+.horizontal-ruler {
+    background: white;
+    border-radius: 18px;
+    border: 1px solid rgba(49, 49, 49, 0.1);
+    height: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 90%;
+}
 
+.edit-ship-form {
+    .field {
+        font-size: 15px;
+        margin-bottom: 10px;
+
+        .country-flag {
+            display: inline-block;
+            position: relative;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        label {
+            color: rgba(0,0,0,0.9);
+            display: block;
+            display: inline-block;
+            font-weight: 700;
+            margin-right: 30px;
+            margin: 0 0 0.2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-transform: none;
+            width: 100px;
+        }
+        .input-text {
+            background: #fff;
+            border-radius: 5px;
+            border: 1px solid rgba(34,36,38,.15);
+            box-shadow: 0 0 0 0 transparent inset;
+            color: rgba(0,0,0,.87);
+            display: inline-block;
+            font-size: 1em;
+            line-height: 1.2142em;
+            margin: 0;
+            outline: 0;
+            padding: 0.67;
+            transition: color .1s ease,border-color .1s ease;
+            width: 300px;
+        }
+    }
+}

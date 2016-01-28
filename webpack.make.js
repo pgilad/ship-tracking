@@ -48,8 +48,14 @@ module.exports = function makeWebpackConfig(options) {
             test: /\.less$/,
             loader: ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap!postcss-loader!less-loader?sourceMap')
         }, {
+            test: /\.css/,
+            loader: ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap!postcss-loader')
+        },{
             test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
             loader: 'file-loader'
+        }, {
+            test: /\.json/,
+            loader: 'json-loader'
         }, {
             test: /\.html$/,
             loader: 'raw-loader'
@@ -111,7 +117,8 @@ module.exports = function makeWebpackConfig(options) {
             chunk: false
         },
         proxy: {
-            "/api/*": "http://localhost:3000/"
+            "/api/*": "http://localhost:3000/",
+            "/favicon.ico": "http://localhost:3000/"
         },
     };
 
