@@ -1,4 +1,4 @@
-<h1 class="main-title">Windward Ship Tracking</h1>
+<h1 class="main-title">Windward Ship Tracking - by Gilad Peleg</h1>
 <button class="windward-button run-query" ng-click="home.filterByQuery()">Filter By Query</button>
 <div class="main-window" ng-switch="home.altScreenMode">
     <div id="map"></div>
@@ -60,9 +60,10 @@
             </li>
             <li>
                 <span>Reset filters</span>
-                <button class="windward-button small" ng-click="home.cancelFilter()">Reset!</button>
+                <button class="windward-button small" ng-click="home.resetMarkers()">Reset!</button>
             </li>
         </ul>
+        <div class="filter-message" ng-if="home.filterMessage">{{ home.filterMessage }}</div>
         <button class="windward-button cancel" ng-click="home.cancelFilter()">Cancel</button>
     </div>
 </div>

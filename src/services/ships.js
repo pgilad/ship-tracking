@@ -21,7 +21,11 @@ function Locations($http) {
     };
 
     this.getBiggestShip = () => {
-        return $http.get(`/api/queries/biggest-ship`);
+        return $http.get('/api/queries/biggest-ship');
+    };
+
+    this.queryGrid = (grid) => {
+        return $http.post('/api/queries/grid', { grid });
     };
 }
 

@@ -36,7 +36,28 @@ app.get('/api/ships/:id', function(req, res) {
 app.get('/api/queries/biggest-ship', function(req, res) {
     const ship = _.max(vesselInfo, 'size');
     // TODO: handle failure
-    res.status(200).send(ship);
+    res.status(200).json(ship);
+});
+
+app.post('/api/queries/grid', function(req, res) {
+    const grid = req.body.grid;
+    const ships = _.filter(vesselLocations, location => {
+        const pos = location.lastpos.geometry.coordinates;
+        if (pos[0] < grid.from[0]) {
+            return false;
+        }
+        if (pos[0] > grid.to[0]) {
+            return false;
+        }
+        if (pos[1] < grid.from[1]) {
+            return false;
+        }
+        if (pos[1] > grid.to[1]) {
+            return false;
+        }
+        return true;
+    });
+    res.status(200).send(ships);
 });
 
 app.put('/api/ships/:id', function(req, res) {

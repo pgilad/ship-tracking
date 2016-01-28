@@ -30,7 +30,7 @@
     "json-loader": "^0.5.4",
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
-    "lodash": "^4.0.1",
+    "lodash": "^3.10.1",
     "method-override": "^2.3.5",
     "morgan": "^1.6.1",
     "ng-annotate-loader": "^0.1.0",

@@ -106,23 +106,59 @@ export default class HomeController {
     }
 
     doneEditing() {
-        const { zoom, position } = this.previousDetails;
-
         this.altScreenMode = MODE_IDLE;
         this.loadingShipDetails = '';
         this.shipDetails = null;
         this.editingShip = null;
+    }
 
+    restoreView() {
+        const { zoom, position } = this.previousDetails;
         this.map.setZoom(zoom);
         this.map.panTo(position);
     }
 
     cancelFilter() {
         this.altScreenMode = MODE_IDLE;
+        this.filterMessage = null;
+        this.restoreView();
     }
 
     filterByQuery() {
+        this.previousDetails = {
+            zoom: this.map.getZoom(),
+            position: this.map.getCenter()
+        };
         this.altScreenMode = MODE_QUERY;
+    }
+
+    resetMarkers() {
+        this.ships.forEach(ship => {
+            ship.marker.setLabel('');
+        });
+        this.filterMessage = 'Cleared all marked ships';
+    }
+
+    queryGrid() {
+        const grid = {
+            from: [28, 40],
+            to: [30, 42]
+        };
+        this.service.queryGrid(grid).then(response => {
+            const ships = response.data;
+            const ids = _.map(ships, ship => ship._id);
+            const wantedShips = _.filter(this.ships, ship => {
+                return _.includes(ids, ship._id);
+            });
+            if (wantedShips.length > 0 ) {
+                wantedShips.forEach(ship => {
+                    ship.marker.setLabel('S');
+                });
+                this.map.setZoom(MARKER_ZOOM);
+                this.map.panTo(wantedShips[0].marker.getPosition());
+            }
+            this.filterMessage = `Found ${wantedShips.length} suspicious ships`;
+        });
     }
 
     queryBiggestShip() {
@@ -132,6 +168,7 @@ export default class HomeController {
             localShip.marker.setLabel('S');
             this.map.setZoom(MARKER_ZOOM);
             this.map.panTo(localShip.marker.getPosition());
+            this.filterMessage = `Zooming in on biggest ship`;
         });
     }
 }
