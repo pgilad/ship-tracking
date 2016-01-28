@@ -6,7 +6,11 @@ const INITIAL_CORDS = {
     lng: 131.044
 };
 const INITIAL_ZOOM = 2;
-const MARKER_ZOOM = 4;
+const MARKER_ZOOM = 5;
+
+const MODE_IDLE = 'idle';
+const MODE_EDITING = 'editing-ship';
+const MODE_QUERY = 'filter-query';
 
 export default class HomeController {
     constructor($scope, ShipsService) {
@@ -15,7 +19,7 @@ export default class HomeController {
         this.service = ShipsService;
 
         this.editingShip = null;
-        this.isEditingShip = false;
+        this.altScreenMode = MODE_IDLE;
         this.loadingShipDetails = '';
         this.shipDetails = null;
 
@@ -26,11 +30,11 @@ export default class HomeController {
             zoom: INITIAL_ZOOM
         });
         this.service.fetchLocations().then(locations => {
-            const ships = locations.data;
-            ships.forEach(ship => {
+            this.ships = locations.data;
+            this.ships.forEach(ship => {
                 const position = ship.lastpos.geometry.coordinates;
                 const id = ship._id;
-                var marker = new google.maps.Marker({
+                const marker = new google.maps.Marker({
                     map: this.map,
                     position: {
                         lat: position[1],
@@ -39,6 +43,7 @@ export default class HomeController {
                     title: id
                 });
                 marker.addListener('click', () => this.editShip(ship, marker));
+                ship.marker = marker;
             });
         });
     }
@@ -60,7 +65,7 @@ export default class HomeController {
         this.map.setZoom(MARKER_ZOOM);
         this.map.setCenter(marker.getPosition());
 
-        this.isEditingShip = true;
+        this.altScreenMode = MODE_EDITING;
         this.editingShip = ship;
         this.loadingShipDetails = 'Please wait while getting ship information';
         this.loadShipData(ship);
@@ -103,12 +108,30 @@ export default class HomeController {
     doneEditing() {
         const { zoom, position } = this.previousDetails;
 
-        this.isEditingShip = false;
+        this.altScreenMode = MODE_IDLE;
         this.loadingShipDetails = '';
         this.shipDetails = null;
         this.editingShip = null;
 
         this.map.setZoom(zoom);
         this.map.panTo(position);
+    }
+
+    cancelFilter() {
+        this.altScreenMode = MODE_IDLE;
+    }
+
+    filterByQuery() {
+        this.altScreenMode = MODE_QUERY;
+    }
+
+    queryBiggestShip() {
+        this.service.getBiggestShip().then(response => {
+            const ship = response.data;
+            const localShip = _.find(this.ships, { _id: ship._id });
+            localShip.marker.setLabel('S');
+            this.map.setZoom(MARKER_ZOOM);
+            this.map.panTo(localShip.marker.getPosition());
+        });
     }
 }

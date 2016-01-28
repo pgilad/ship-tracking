@@ -1,7 +1,8 @@
 <h1 class="main-title">Windward Ship Tracking</h1>
-<div class="main-window">
+<button class="windward-button run-query" ng-click="home.filterByQuery()">Filter By Query</button>
+<div class="main-window" ng-switch="home.altScreenMode">
     <div id="map"></div>
-    <div class="ship-edit" ng-if="home.isEditingShip">
+    <div class="alternative-screen" ng-switch-when="editing-ship">
         <div class="title">Editing ship {{ home.editingShip._id }}</div>
         <div class="hint-tip" ng-if="home.loadingShipDetails">Loading ship's data...</div>
         <hr class="horizontal-ruler" />
@@ -42,7 +43,26 @@
             <button class="windward-button primary save-editing" ng-click="home.saveShip()">Save Changes</button>
         </div>
     </div>
-    <div class="ship-edit" ng-if="!home.isEditingShip">
+    <div class="alternative-screen" ng-switch-when="idle">
         <div class="hint-tip">Click a ship to edit it</div>
+    </div>
+
+    <div class="alternative-screen" ng-switch-when="filter-query">
+        <div class="title">Filter ships by query</div>
+        <ul class="queries">
+            <li>
+                <span>Find biggest ship (ship with the biggest size property)</span>
+                <button class="windward-button primary small" ng-click="home.queryBiggestShip()">Go!</button>
+            </li>
+            <li>
+                <span>Find all vessels with coordinate between (28,40) and (30,42)</span>
+                <button class="windward-button primary small" ng-click="home.queryGrid()">Go!</button>
+            </li>
+            <li>
+                <span>Reset filters</span>
+                <button class="windward-button small" ng-click="home.cancelFilter()">Reset!</button>
+            </li>
+        </ul>
+        <button class="windward-button cancel" ng-click="home.cancelFilter()">Cancel</button>
     </div>
 </div>

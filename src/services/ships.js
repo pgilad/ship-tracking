@@ -19,6 +19,10 @@ function Locations($http) {
     this.saveShip = (ship) => {
         return $http.put(`/api/ships/${ship._id}`, ship);
     };
+
+    this.getBiggestShip = () => {
+        return $http.get(`/api/queries/biggest-ship`);
+    };
 }
 
 export default angular.module('services.locations', [])

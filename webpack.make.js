@@ -117,8 +117,7 @@ module.exports = function makeWebpackConfig(options) {
             chunk: false
         },
         proxy: {
-            "/api/*": "http://localhost:3000/",
-            "/favicon.ico": "http://localhost:3000/"
+            "/*": "http://localhost:3000/",
         },
     };
 

@@ -33,11 +33,18 @@ app.get('/api/ships/:id', function(req, res) {
     res.json(ship);
 });
 
+app.get('/api/queries/biggest-ship', function(req, res) {
+    const ship = _.max(vesselInfo, 'size');
+    // TODO: handle failure
+    res.status(200).send(ship);
+});
+
 app.put('/api/ships/:id', function(req, res) {
     // TODO: handle data perseverance
     res.status(200).json(req.body);
 });
 
-app.listen(3000, function() {
-    console.log('Example app listening on port 3000!');
+var port = 3000;
+app.listen(port, function() {
+    console.log('Windward server running on port:', port);
 });
