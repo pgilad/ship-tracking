@@ -16,6 +16,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride());
 app.use(cookieParser());
+app.use(express.static(__dirname + '/public'));
+app.use(methodOverride());
 
 var vesselLocations = require('./docs/vesselLocations.json');
 var vesselInfo = require('./docs/vesselInfo.json');
