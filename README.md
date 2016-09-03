@@ -1,4 +1,4 @@
-# Windward Ship Tracking - by Gilad Peleg
+# Windward Ship Tracking
 > Waze + Trusteer for the sea
 
 ## Install
@@ -20,3 +20,6 @@ $ npm run dev
 # Build a "prod" build
 $ npm run build
 ```
+
+## License
+MIT @Gilad Peleg
