@@ -1,4 +1,4 @@
-# Windward Ship Tracking
+# Windward-like Ship Tracking
 > Waze + Trusteer for the sea
 
 ## Install
